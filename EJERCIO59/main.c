@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* 4	Leer 20 números enteros positivos, indicar cuál es el mayor
- y en qué orden fue leído 
+/* 4	Leer 20 nÃºmeros enteros positivos, indicar cuÃ¡l es el mayor
+ y en quÃ© orden fue leÃ­do 
 (a que elemento pertenece). Mostrar el vector completo */
 
 int main() {
@@ -17,13 +17,13 @@ printf("ingrese 20 numeros enteros positivos : ");
   }
     
        
-   for(j=0;j<2;j++){
+   for(j=0;j<20;j++){
    printf("el elemento %d contiene el numero %d\n ",j,num[j]);
    }
      
        max=num[0];
 	 
-	 for(g=0;g<2;g++)
+	 for(g=0;g<20;g++)
 	 { 
 	   if(num[j]==max)
       max=num[j];
